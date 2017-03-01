@@ -7,7 +7,7 @@ set(PROJECT_LONGNAME "Ludo")
 set(PROJECT_VERSION "1.0.0")
 
 if (UNIX)
-  set (CMAKE_CXX_FLAGS "-g3 -Wall -O3")
+  set (CMAKE_CXX_FLAGS "-g3 -Wall -O3 -std=c++14")
 endif ()
 
 # Include the build directory contents
